@@ -1,0 +1,25 @@
+{
+  "name": "Floating Video Player",
+  "description": "Watch videos in a floating window (picture-in-picture mode) while doing other things on your device",
+  "version": "1.0.0",
+  "icons": {},
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {},
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Alt+Shift+P",
+        "mac": "Alt+Shift+P",
+        "chromeos": "Alt+Shift+P",
+        "linux": "Alt+Shift+P"
+      },
+      "description": "Enable Floating Video"
+    }
+  },
+  "permissions": ["<all_urls>", "storage"],
+  "minimum_chrome_version": "69.0.3483.0",
+  "manifest_version": 2
+}

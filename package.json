@@ -1,0 +1,22 @@
+{
+  "name": "floating-video-player",
+  "version": "1.0.0",
+  "description": "Watch videos in a floating window (picture-in-picture mode) while doing other things on your device",
+  "keywords": [
+    "floating",
+    "video",
+    "player",
+    "pip",
+    "picture-in-picture",
+    "youtube",
+    "netflix",
+    "amazon",
+    "prime"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manas Gupta (manas94gupta@gmail.com)",
+  "license": "ISC"
+}
